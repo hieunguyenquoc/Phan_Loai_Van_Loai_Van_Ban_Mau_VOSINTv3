@@ -12,8 +12,10 @@
 - [Python] 
 - [PhoBERT] - Sử dụng mô hình ngôn ngữ PhoBERT để embedding các câu
 - [Cosine-Similarity] - Sử dụng độ đo cosine
+- [MongoDB] - Để lưu trữ văn bản mẫu
 ## Yêu cầu
 * Python 3.6+
+* MongoDB 
 
 ## Cài đặt
 Bước 1 : Download source code
@@ -27,7 +29,9 @@ Bước 2 : Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 ```
 
-Bước 3 : Khởi chạy dịch vụ
+Bước 4 : Import CSDL theo file json đính kèm trong folder database
+
+Bước 5 : Khởi chạy dịch vụ
 ```sh
 cd ../
 python main.py
