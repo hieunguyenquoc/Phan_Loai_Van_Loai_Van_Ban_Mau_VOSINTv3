@@ -1,0 +1,5 @@
+underthesea==6.2.0
+pymongo==4.3.3
+sentence-transformers==2.2.2
+pyvi==0.1.1
+langdetect==1.0.9
